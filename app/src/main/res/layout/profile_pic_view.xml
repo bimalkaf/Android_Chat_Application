@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/circular_bg"
+        android:src="@drawable/person_icon"
+        android:padding="4dp"
+        android:backgroundTint="@color/off_white"
+        android:layout_centerInParent="true"
+        android:id="@+id/profile_pic_image_view"
+        />
+
+</RelativeLayout>
